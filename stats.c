@@ -2,20 +2,20 @@
  * Copyright (C) 2017 by Alex Fosdick - University of Colorado
  *
  * Redistribution, modification or use of this software in source or binary
- * forms is permitted as long as the files maintain this copyright. Users are 
+ * forms is permitted as long as the files maintain this copyright. Users are
  * permitted to modify this and use it to learn about the field of embedded
  * software. Alex Fosdick and the University of Colorado are not liable for any
- * misuse of this material. 
+ * misuse of this material.
  *
  *****************************************************************************/
 /**
- * @file <Add File Name> 
- * @brief <Add Brief Description Here >
+ * @file stats.c:
+ * @brief functions to manipulate and report on a basic dataset
  *
- * <Add Extended Description Here>
  *
- * @author <Add FirsName LastName>
- * @date <Add date >
+ *
+ * @author Andrea Llewellyn
+ * @date 05/09/2021
  *
  */
 
@@ -41,3 +41,33 @@ void main() {
 }
 
 /* Add other Implementation File Code Here */
+
+void print_statistics(int minimum, int maximum, int mean, int median) {
+  /* stubbed */
+}
+
+
+void print_array(unsigned char data[], int length) {
+  /* stubbed */
+}
+
+
+unsigned char find_median(unsigned char data[], int length) {
+  /* stubbed */
+}
+
+unsigned char find_mean(unsigned char data[], int length) {
+  /* stubbed */
+}
+
+unsigned char find_maximum(unsigned char data[], int length) {
+  /* stubbed */
+}
+
+unsigned char find_minimum(unsigned char data[], int length) {
+  /* stubbed */
+}
+
+void sort_array(unsigned char data[], int length) {
+  /* stubbed */
+}
