@@ -66,7 +66,7 @@
   *
   * <Add Extended Description Here>
   *
-  * @param data: the data array to analyse 
+  * @param data: the data array to analyse
   * @param length : the length of the data
   *
   * @return char of the mean value
